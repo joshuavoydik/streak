@@ -1,0 +1,89 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+/* Reset margins & paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f7f7f7;
+}
+
+/* Center container */
+.streak-box {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 25px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* Typography */
+h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.streak-stats p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Calendar */
+.calendar {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+.calendar div {
+  width: 15px;
+  height: 15px;
+  margin: 2px;
+  border-radius: 2px;
+  background-color: #28a745;
+}
+
+/* Buttons */ 
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#streak-btn {
+  background-color: #28a745;
+  color: #fff;
+}
+
+#reset-btn {
+  background-color: #fff;
+  color: #28a745;
+  border: 2px solid #28a745;
+  margin-left: 10px; 
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:active {
+  transform: scale(0.98);
+}
