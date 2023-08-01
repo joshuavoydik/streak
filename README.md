@@ -5,6 +5,4 @@ _GitHub-style streak counter_
 
 - Thanks for following along and stay tuned for more.
 
-Joshua
-
 www.voydik.com
